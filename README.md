@@ -20,7 +20,7 @@ node ./index.js
 
 **Admin**
 for Adding products
-
+npm run dev
 
 ![Screenshot (28)](https://github.com/onkar964/ecommerce_mern/assets/62983112/3a92a49a-acb7-4601-9c8e-20e6ef0d1dbe)
 ![Screenshot (27)](https://github.com/onkar964/ecommerce_mern/assets/62983112/3e3eb2d6-8f20-449e-a741-bc15f468d0d8)
