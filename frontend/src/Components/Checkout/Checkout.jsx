@@ -67,8 +67,15 @@ export const Checkout = () => {
     const checkout = async () => {
         try {
             // Make a POST request to the backend to handle checkout
-            await axios.post('http://localhost:4000/checkout');
-
+               await axios.post('http://localhost:4000/checkout',
+            {}, // empty body
+            {
+                headers: {
+                    'auth-token': localStorage.getItem('auth-token'),
+                    'Content-Type': 'application/json'
+                }
+            }
+        );
             // Display success message
             toast.success('Order placed successfully', {
                 position: "top-right",
